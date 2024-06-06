@@ -24,8 +24,9 @@ export default function RootLayout({
             <div className="mt-20 bg-white rounded-t-md h-[100px]">
               <div className="flex gap-10 justify-start items-center h-full pl-10">
                 <FaCalendarAlt size={30} />
-                <h1 className="text-3xl font-bold">Register a new vistit</h1>
+                <h1 className="text-3xl font-bold">Register a new visit</h1>
               </div>
+              <hr className=" w-[80%] border-t-1 border-gray-300 mx-auto" />
             </div>
           </div>
         </header>
