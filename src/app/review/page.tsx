@@ -40,12 +40,14 @@ export default function ReviewVisit() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-top py-8">
-      <h1 className="text-2xl mb-4 w-full text-left pl-16">Review your Visit details</h1>
-      <div className="w-full max-w-7xl px-8">
+    <div className="flex flex-col items-center justify-top py-8">
+      <h1 className="text-2xl mb-4 w-full text-left pl-16 font-semibold">
+        Review your Visit details
+      </h1>
+      <div className="w-full max-w-7xl px-8 pl-16">
         <div className="mb-8">
           <h2 className="text-xl mb-4">Your Visit details</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-5">
             <div>
               <p className="font-semibold">Visit name</p>
               <p>{formData.visitName}</p>
@@ -82,7 +84,7 @@ export default function ReviewVisit() {
         </div>
         <button
           onClick={handleSubmit}
-          className="bg-green-500 text-white p-2 rounded mt-4 w-full max-w-xs mx-auto"
+          className="bg-green-900 text-white p-2 rounded mt-4 w-full sm:w-auto sm:px-8"
         >
           Submit Visit
         </button>
